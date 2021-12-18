@@ -1,8 +1,9 @@
-﻿using System;
+﻿// Миронов С.В.
 
+using System;
     class Program
     {
-        public double readDouble(string text){
+        static double readDouble(string text){
             bool flag;
             double ret;
             do{
@@ -13,7 +14,7 @@
             return ret;
         }
 
-        public int Dialog(){
+        static int Dialog(){
             bool flag;
             int ret;
             Console.WriteLine("Выберите что вы хотите сделать с числами:");
