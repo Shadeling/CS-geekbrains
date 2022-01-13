@@ -1,6 +1,12 @@
 ﻿
 using System;
 
+// Изменить программу вывода таблицы функции так, 
+// чтобы можно было передавать функции типа double (double, double). 
+// Продемонстрировать работу на функции с функцией a*x^2 и функцией a*sin(x).
+
+//Миронов С.В.
+
 public delegate double Fun(double x, double a);
 
 class Program
